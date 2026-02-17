@@ -4,8 +4,8 @@ public class Student {
 	private String branch;
 	
 	public void setStudent(int rollno, String name, String branch) {
-		this.rollno = rollno;
-		this.name = name;
+		this.rollno = rollno; //This keyword will diferentiate between local and instance variable
+		this.name = name;     //RHS - local variable & LHS - instance variable
 		this.branch = branch;
 	}
 	
