@@ -27,7 +27,7 @@ public class StudentMain {
 		
 		s1.setStudent(100, "Abc", "CSE");
 		
-		s1.getStudent()
+		s1.getStudent();
 	}
 
 }
